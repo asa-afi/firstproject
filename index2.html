@@ -9,31 +9,29 @@
       background: linear-gradient(to right, #ff9a9e, #fecfef);
       margin: 0;
       padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       min-height: 100vh;
     }
     .container {
       text-align: center;
       background-color: rgba(255, 255, 255, 0.9);
-      padding: 60px;
+      padding: 5vw; /* Adjusted padding */
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-      width: 80%;
-      max-width: 800px;
+      width: 90%; /* Adjusted width */
+      max-width: 600px; /* Adjusted max-width */
+      margin: 0 auto; /* Center the container */
     }
     h1 {
       color: #f57f17;
-      font-size: 48px;
+      font-size: 5vw; /* Adjusted font-size */
       margin-bottom: 20px;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     }
     p {
-      font-size: 20px;
+      font-size: 3.2vw; /* Adjusted font-size */
       line-height: 1.6;
       color: #333;
-      margin-bottom: 30px;
+      margin-bottom: 3vw; /* Adjusted margin */
     }
     .social-cards {
       display: flex;
@@ -44,62 +42,63 @@
       background-color: #f9f9f9;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 15px;
-      margin: 10px;
+      padding: 4vw; /* Adjusted padding */
+      margin: 2vw;
       text-align: center;
-      width: 200px;
+      width: 40vw; /* Adjusted width */
+      max-width: 200px; /* Adjusted max-width */
     }
     .social-card a {
       display: block;
       text-decoration: none;
       color: #333;
       font-weight: bold;
-      margin-bottom: 10px;
+      margin-bottom: 2vw; /* Adjusted margin */
     }
     .btn {
-      padding: 10px 20px;
+      padding: 2vw 4vw; /* Adjusted padding */
       background-color: #f57f17;
       color: #fff;
       border: none;
       border-radius: 5px;
-      font-size: 20px;
+      font-size: 3vw; /* Adjusted font-size */
       cursor: pointer;
       transition: background-color 0.3s, transform 0.3s;
       text-decoration: none;
       display: inline-block;
-      margin-top: 20px; /* Adjusted margin-top */
+      margin-top: 4vw; /* Adjusted margin-top */
     }
     .btn:hover {
       background-color: #e67e22;
       transform: scale(1.05);
     }
     .footer-text {
-      font-size: 14px;
+      font-size: 2vw; /* Adjusted font-size */
       color: #888;
-      margin-top: 30px; /* Adjusted margin-top */
+      margin-top: 5vw; /* Adjusted margin-top */
     }
 
     /* Media Queries */
     @media only screen and (max-width: 600px) {
-      .container {
-        padding: 30px;
-      }
       h1 {
-        font-size: 36px;
+        font-size: 7vw;
       }
       p {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 4vw;
+        margin-bottom: 5vw;
       }
       .social-card {
-        width: 100%;
-        margin: 10px 0;
+        width: 80vw;
+        max-width: 250px;
+        margin: 4vw 0;
       }
       .btn {
-        font-size: 18px;
+        font-size: 5vw;
+        padding: 3vw 6vw;
       }
       .footer-text {
-        font-size: 12px;
+        font-size: 3vw;
+        margin-top: 7vw;
       }
     }
   </style>
