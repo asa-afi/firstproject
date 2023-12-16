@@ -34,18 +34,17 @@
       margin-bottom: 3vw; /* Adjusted margin */
     }
     .social-cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around; /* Adjusted to evenly distribute */
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns */
+      gap: 20px; /* Adjusted gap */
+      justify-content: center;
     }
     .social-card {
       background-color: #f9f9f9;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       padding: 4vw; /* Adjusted padding */
-      margin: 2vw;
       text-align: center;
-      width: 40vw; /* Adjusted width */
       max-width: 200px; /* Adjusted max-width */
     }
     .social-card a {
@@ -87,14 +86,8 @@
         font-size: 4vw;
         margin-bottom: 5vw;
       }
-      .social-card {
-        width: 80vw;
-        max-width: 250px;
-        margin: 4vw 0;
-      }
       .social-cards {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr; /* Set to a single column for small screens */
       }
     }
   </style>
